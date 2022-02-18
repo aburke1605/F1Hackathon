@@ -25,7 +25,7 @@ $ git clone git@github.com:aburke1605/F1Hackathon.git
 Make sure to create your own branch to work on:
 
 ```
-$ git checkout -b my_new_branch// new local branch
+$ git checkout -b my_new_branch // new local branch
 $ vim new_file.txt // create and edit some new file
 $ git add new_file.txt
 $ git commit new_file.txt -m "adding new file to do ____" // a message describing the changes in the commit
