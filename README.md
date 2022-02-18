@@ -22,7 +22,7 @@ $ git clone git@github.com:aburke1605/F1Hackathon.git
 
 ## Coding
 
-Make sure to fork a branch to work on:
+Make sure to create your own branch to work on:
 
 ```
 $ git checkout -b my_new_branch// new local branch
