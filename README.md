@@ -7,7 +7,7 @@ I recommend cloning with SSH to speed things up. To do so you'll need to generat
 In a terminal, do:
 
 ```
-$ ssh-keygen -t ed25519 -C "decriptive comment"
+$ ssh-keygen -t ed25519 -C "descriptive comment"
 ```
 
 You can leave the passphrase empty so you don't have to type it every time you pull or push to the remote. The descriptive comment might describe where you are working, e.g. locally on your laptop or on a cluster.
@@ -20,7 +20,7 @@ Then clone this repo with ssh:
 $ git clone git@github.com:aburke1605/F1Hackathon.git
 ```
 
-## Forking
+## Coding
 
 Make sure to fork a branch to work on:
 
