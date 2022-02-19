@@ -31,7 +31,7 @@ $ setup/setup.sh
 $ conda activate F1
 ```
 
-From here you can now run the notebook in VS code. Make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
+From here you can open VS code by entering `code .` at the command prompt. The notebook can be run in VS code; make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
 Press `Ctrl+Enter` to run the notebook in VS code, you might be prompted to select our environment interpreter again.
 
 ## Coding
