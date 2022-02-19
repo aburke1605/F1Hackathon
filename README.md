@@ -31,7 +31,7 @@ $ setup/setup.sh
 $ conda activate F1
 ```
 
-From here you can now run the notebook in VS code. Make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
+From here you can open VS code by entering `code .` at the command prompt. The notebook can be run in VS code; make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
 Press `Ctrl+Enter` to run the notebook in VS code, you might be prompted to select our environment interpreter again.
 
 ## Coding
@@ -49,3 +49,7 @@ $ git push origin aburke/my_new_branch // try to use your_name/matches_local_bra
 Never push to `origin master`!!
 
 This will create a new branch from which you can create a merge request by clicking the link. Don't merge without discussing first!!
+
+## Data
+
+For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location.
