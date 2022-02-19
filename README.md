@@ -1,5 +1,7 @@
 # F1Hackathon
 
+https://github.com/oracle-devrel/formula-ai-2022-hackathon/blob/main/challenges/challenge1.md
+
 ## Cloning repository
 
 I recommend cloning with SSH to speed things up. To do so you'll need to generate an ssh key and add this to your github account.
@@ -34,6 +36,21 @@ $ conda activate F1
 From here you can open VS code by entering `code .` at the command prompt. The notebook can be run in VS code; make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
 Press `Ctrl+Enter` to run the notebook in VS code, you might be prompted to select our environment interpreter again.
 
+#### Installing new packages
+
+If you need to install something new, e.g. `scikit-learn`, make sure to do so in the F1 environment:
+
+```
+(F1) $ conda install sk-learn -c conda-forge
+```
+
+Then update the environment yaml:
+
+```
+(F1) $ conda env export > setup/env.yaml
+```
+and commit the new file.
+
 ## Coding
 
 Make sure to create your own branch to work on:
@@ -52,4 +69,7 @@ This will create a new branch from which you can create a merge request by click
 
 ## Data
 
-For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location.
+For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location:
+```
+$ unzip /path/to/weather.csv.zip -d F1Hackathon/data/
+```
