@@ -49,3 +49,7 @@ $ git push origin aburke/my_new_branch // try to use your_name/matches_local_bra
 Never push to `origin master`!!
 
 This will create a new branch from which you can create a merge request by clicking the link. Don't merge without discussing first!!
+
+## Data
+
+For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location.
