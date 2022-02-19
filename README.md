@@ -18,6 +18,7 @@ Then clone this repo with ssh:
 
 ```
 $ git clone git@github.com:aburke1605/F1Hackathon.git
+$ cd F1Hackathon
 ```
 
 ## Conda environment
