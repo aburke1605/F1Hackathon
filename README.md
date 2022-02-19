@@ -20,6 +20,16 @@ Then clone this repo with ssh:
 $ git clone git@github.com:aburke1605/F1Hackathon.git
 ```
 
+## Conda environment
+
+To create the conda environment, do:
+
+```
+$ chmod +x setup/setup.sh
+$ setup/setup.sh
+$ conda activate base
+```
+
 ## Coding
 
 Make sure to create your own branch to work on:
