@@ -1,4 +1,4 @@
-data/weather.json
-data/weather.csv
+data/*.json
+data/*.csv
 setup/miniconda.sh
 setup/conda/*
