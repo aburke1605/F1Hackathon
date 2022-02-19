@@ -39,7 +39,7 @@ Press `Ctrl+Enter` to run the notebook in VS code, you might be prompted to sele
 If you need to install something new, e.g. `scikit-learn`, make sure to do so in the F1 environment:
 
 ```
-(F1) $ conda install scikit-learn -c conda-forge
+(F1) $ conda install sk-learn -c conda-forge
 ```
 
 Then update the environment yaml:
