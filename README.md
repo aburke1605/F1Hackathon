@@ -34,6 +34,21 @@ $ conda activate F1
 From here you can open VS code by entering `code .` at the command prompt. The notebook can be run in VS code; make sure to select our environment as the interpreter (`Ctrl+Shift+P` then `Python: Select Interpreter` then choose `./setup/conda/envs/F1/bin/python`).\
 Press `Ctrl+Enter` to run the notebook in VS code, you might be prompted to select our environment interpreter again.
 
+#### Installing new packages
+
+If you need to install something new, e.g. `scikit-learn`, make sure to do so in the F1 environment:
+
+```
+(F1) $ conda install my_package -c conda-forge
+```
+
+Then update the environment yaml:
+
+```
+(F1) $ conda env export > setup/env.yaml
+```
+and commit the new file.
+
 ## Coding
 
 Make sure to create your own branch to work on:
