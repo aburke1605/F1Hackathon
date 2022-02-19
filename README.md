@@ -52,4 +52,7 @@ This will create a new branch from which you can create a merge request by click
 
 ## Data
 
-For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location.
+For the code to work you'll have to download the [csv](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.csv) and [json](https://www.kaggle.com/oracledevrel/formulaaihackathon2022?select=weather.json) data and unzip them to a folder `data/` within the repo, but do not track these. They should be ignored by `.gitignore` if you've unzipped in the correct location:
+```
+$ unzip /path/to/weather.csv.zip -d F1Hackathon/data/
+```
