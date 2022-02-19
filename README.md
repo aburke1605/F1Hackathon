@@ -27,7 +27,7 @@ To create the conda environment, do:
 ```
 $ chmod +x setup/setup.sh
 $ setup/setup.sh
-$ conda activate base
+$ conda activate F1
 ```
 
 ## Coding
