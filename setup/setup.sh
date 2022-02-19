@@ -6,4 +6,5 @@ bash setup/miniconda.sh -b -p setup/conda &&
 (
     source setup/conda/bin/activate
     conda env create -f setup/env.yaml -n F1
+    
 )
