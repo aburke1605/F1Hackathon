@@ -1,5 +1,7 @@
 # F1Hackathon
 
+https://github.com/oracle-devrel/formula-ai-2022-hackathon/blob/main/challenges/challenge1.md
+
 ## Cloning repository
 
 I recommend cloning with SSH to speed things up. To do so you'll need to generate an ssh key and add this to your github account.
